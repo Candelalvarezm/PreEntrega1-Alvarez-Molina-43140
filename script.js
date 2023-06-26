@@ -2,7 +2,7 @@ const pin = "1234";
 const pinIngresado = prompt("Ingrese pin de supervisor")
 
 if (pinIngresado === pin) {
-    alert("Ingrese la palabra FIN para finalizar la consulta")
+    alert("Pin Correcto" +"\n" +"Ingrese la palabra FIN para finalizar la consulta")
     ingresarCodigo();
 } else {
     alert("Pin invalido");
